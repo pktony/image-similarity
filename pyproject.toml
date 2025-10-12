@@ -1,0 +1,12 @@
+[project]
+name = "pokemon-similarity"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.3",
+    "pillow>=11.3.0",
+    "torch>=2.8.0",
+    "transformers>=4.57.0",
+]
