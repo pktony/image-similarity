@@ -204,7 +204,7 @@ if __name__ == "__main__":
     from embedding_extractor import ImageEmbeddingExtractor
 
     prototype_path = sys.argv[1] if (len(sys.argv) > 1) else "embedding_output/prototypes.npz"
-    input_image = sys.argv[2] if (len(sys.argv) > 2) else "examples/1.jpg"
+    input_image = sys.argv[2] if (len(sys.argv) > 2) else "examples/9.webp"
 
     # Initialize calculator
     calc = SimilarityCalculator(tau1=0.30, tau2=0.04)
